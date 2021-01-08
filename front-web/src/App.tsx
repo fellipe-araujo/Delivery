@@ -1,15 +1,7 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
+import Routes from './Routes';
 
-const App = () => {
-  return (
-    <>
-      <Navbar />
-      <Home />
-    </>
-  );
-}
+const App = () => <Routes />
 
 export default App;
